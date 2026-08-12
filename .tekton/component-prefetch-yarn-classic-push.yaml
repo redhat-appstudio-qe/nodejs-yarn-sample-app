@@ -8,9 +8,9 @@ metadata:
     pipelinesascode.tekton.dev/cancel-in-progress: "false"
     pipelinesascode.tekton.dev/max-keep-runs: "3"
     pipelinesascode.tekton.dev/on-cel-expression: event == "push" && target_branch
-      == "base-lyyrhy"
+      == "base-bkdnvp"
   labels:
-    appstudio.openshift.io/application: application-vbiu
+    appstudio.openshift.io/application: application-lyyd
     appstudio.openshift.io/component: component-prefetch-yarn-classic
     pipelines.appstudio.openshift.io/type: build
   name: component-prefetch-yarn-classic-on-push
